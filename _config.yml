@@ -16,7 +16,7 @@ baseurl:          /
 relative_url:     /
 remote_theme:     just-the-docs/just-the-docs
 color_scheme:     dark
-logo:             "/assets/images/yummy.png"
+logo:             "/assets/images/yummy_logo.png"
 
 author:
   name:           'Qooba'
