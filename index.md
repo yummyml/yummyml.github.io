@@ -6,10 +6,13 @@ description: "Yummy documentation."
 permalink: /
 ---
 
-# Yummy
+<img src="{{ site.relative_url }}assets/images/yummy.png" alt="yummy" width="900" />
 
-Hello from yummy
----
+## Why ?
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Getting started
 
@@ -22,6 +25,4 @@ Hello from yummy
 
 
 
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
-</div>
+
