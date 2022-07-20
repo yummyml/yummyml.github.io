@@ -7,7 +7,7 @@ permalink: /
 ---
 
 # [Yummy](https://github.com/yummyml/yummy) - delicious [Feast](https://github.com/feast-dev/feast) extension
-<img src="{{ site.relative_url }}assets/images/yummy_transparent.png" alt="yummy" width="500" />
+<center><img src="{{ site.relative_url }}assets/images/yummy_transparent.png" alt="yummy" width="500" /></center>
 
 Yummy project adds possiblity to run [Feast](https://github.com/feast-dev/feast) on multiple backends:
 * [polars](https://github.com/pola-rs/polars)
