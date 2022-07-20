@@ -18,16 +18,6 @@ Yummy project adds possiblity to run [Feast](https://github.com/feast-dev/feast)
 This gives flexibility in setting up the feature store on existing environments and using its capabilities.
 Moreover using Yummy you can combine multiple and different datasources during historical fetch task.
 
-## Why ?
-
-Here is short explanation why we need yummy:
-
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
-</div>
-
-## Getting started
-
 | Sources/Backends  | [Spark](/backends/spark) | [Polars](/backends/polars) | [Dask](/backends/dask) | [Ray](/backends/ray) |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | [Iceberg   Source](/sources/iceberg)  | ✔️  |  ❌  |  ❌  |  ❌ |
@@ -36,5 +26,12 @@ Here is short explanation why we need yummy:
 | [CSV       Source](/sources/csv)  | ✔️  |  ✔️  |  ✔️  |  ✔️ |
 
 
+## Why ?
+
+Here is short explanation why we need yummy:
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
