@@ -13,4 +13,8 @@ As metioned before `Yummy` uses centralized features selection logic in th backe
 thus adding new data source is very simple.
 Moreover you can combine multiple data sources to select required features. 
 
+Below you have list of sources available for each backend. 
+
 {% include sources_matrix.md %}
+
+
