@@ -6,7 +6,7 @@ description: "Yummy documentation."
 permalink: /
 ---
 
-<img src="{{ site.relative_url }}assets/images/yummy.png" alt="yummy" width="900" />
+<img src="{{ site.relative_url }}assets/images/yummy_transparent.png" alt="yummy" width="500" />
 
 ## Why ?
 
