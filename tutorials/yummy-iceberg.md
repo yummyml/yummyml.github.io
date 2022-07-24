@@ -23,7 +23,7 @@ The kafka connect inegration is based on the article:
 [https://getindata.com/blog/real-time-ingestion-iceberg-kafka-connect-apache-iceberg-sink/](https://getindata.com/blog/real-time-ingestion-iceberg-kafka-connect-apache-iceberg-sink/)
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=kv0iWuSf4jw" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/kv0iWuSf4jw" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Full example: [https://github.com/yummyml/yummy-iceberg-kafka-connect/](https://github.com/yummyml/yummy-iceberg-kafka-connect/)

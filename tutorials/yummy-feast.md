@@ -19,6 +19,6 @@ and sources:
 * csv
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
 </div>
 
