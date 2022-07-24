@@ -14,7 +14,7 @@ Finally how to use with MLflow framework.
     <iframe src="https://www.youtube.com/embed/CeYR0INmPhs" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Detailed description: [https://blog.qooba.net/2021/05/22/feast-with-ai-feed-your-mlflow-models-with-feature-store/][https://blog.qooba.net/2021/05/22/feast-with-ai-feed-your-mlflow-models-with-feature-store/]
+Detailed description: [https://blog.qooba.net/2021/05/22/feast-with-ai-feed-your-mlflow-models-with-feature-store/](https://blog.qooba.net/2021/05/22/feast-with-ai-feed-your-mlflow-models-with-feature-store/)
 
 Full example: [https://github.com/qooba/mlflow-feast](https://github.com/qooba/mlflow-feast)
 

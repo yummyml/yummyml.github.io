@@ -9,7 +9,7 @@ permalink: /tutorials
 
 # Tutorials
 
-Here you will find tutorials how to use Yummy and Feast:
+Here you will find tutorials how to use Yummy, Feast and more:
 
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/kv0iWuSf4jw" frameborder="0" allowfullscreen></iframe>
