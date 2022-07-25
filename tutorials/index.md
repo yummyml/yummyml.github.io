@@ -13,7 +13,7 @@ Here you will find tutorials how to use Yummy, Feast and more:
 
 ---
 
-### Real-time ingested historical feature store with Iceberg, Feast and Yummy extension
+## Real-time ingested historical feature store with Iceberg, Feast and Yummy extension
 
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/kv0iWuSf4jw" frameborder="0" allowfullscreen></iframe>
@@ -24,7 +24,7 @@ Here you will find tutorials how to use Yummy, Feast and more:
 
 ---
 
-### Yummy - delicious Feast extension
+## Yummy - delicious Feast extension
 
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
@@ -35,7 +35,7 @@ Here you will find tutorials how to use Yummy, Feast and more:
 
 ---
 
-### Distributed Feature Store with Feast and Dask
+## Distributed Feature Store with Feast and Dask
 
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/ES2XXhziB8s" frameborder="0" allowfullscreen></iframe>
@@ -46,7 +46,7 @@ Here you will find tutorials how to use Yummy, Feast and more:
 
 ---
 
-### Feast with AI - feed your MLflow models with feature store
+## Feast with AI - feed your MLflow models with feature store
 
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/CeYR0INmPhs" frameborder="0" allowfullscreen></iframe>
