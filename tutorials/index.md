@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tutorials
-nav_order: 5
+nav_order: 3
 has_children: false
 description: "Yummy tutorials."
 permalink: /tutorials
