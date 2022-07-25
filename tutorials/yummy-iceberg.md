@@ -26,6 +26,6 @@ The kafka connect inegration is based on the article:
     <iframe src="https://www.youtube.com/embed/kv0iWuSf4jw" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Full example: [https://github.com/yummyml/yummy-iceberg-kafka-connect/](https://github.com/yummyml/yummy-iceberg-kafka-connect/)
+[Full example with code](https://github.com/yummyml/yummy-iceberg-kafka-connect/)
 
 
