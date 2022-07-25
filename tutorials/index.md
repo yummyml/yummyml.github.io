@@ -27,7 +27,7 @@ Here you will find tutorials how to use Yummy, Feast and more:
 </div>
 
 [Code](https://github.com/yummyml/yummy){: .btn .btn-blue }
-[Read](https://yummyml.com){: .btn .btn-green }
+[Read](https://blog.qooba.net/2022/05/04/yummy-delicious-feast-extension/){: .btn .btn-green }
 
 ---
 
