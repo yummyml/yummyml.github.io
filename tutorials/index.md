@@ -20,7 +20,7 @@ Here you will find tutorials how to use Yummy, Feast and more:
 </div>
 
 [Code](https://github.com/yummyml/yummy-iceberg-kafka-connect/blob/master/notebooks/example.ipynb){: .btn .btn-blue }
-[Read](https://github.com/yummyml/yummy-iceberg-kafka-connect/){: .btn .btn-green }
+[Read](https://blog.qooba.net/2022/07/25/feature-store-with-iceberg/){: .btn .btn-green }
 
 ---
 
