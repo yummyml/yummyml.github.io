@@ -38,6 +38,10 @@ plugins:
   - jekyll-coffeescript
   - jekyll-seo-tag
 
+
+ga_tracking: G-3X1WNGVLQ7
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
 # defaults:
 #   -
 #     scope:
