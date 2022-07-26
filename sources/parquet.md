@@ -12,11 +12,11 @@ permalink: /sources/parquet
 Example `parquet` datasource configuration:
 
 ```python
-from yummy import ParquetDataSource
+from yummy import ParquetSource
 
-my_stats_csv = ParquetDataSource(
+my_stats_csv = ParquetSource(
     path="/home/jovyan/notebooks/dataset/all_data.parquet",
-    event_timestamp_column="datetime",
+    timestamp_field="datetime",
 )
 ```
 

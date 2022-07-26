@@ -9,20 +9,20 @@ permalink: /sources/iceberg
 
 # Iceberg
 
-With `IcebergDataSource` you can consume [Iceberg](https://iceberg.apache.org/) to fetch the features.
+With `IcebergSource` you can consume [Iceberg](https://iceberg.apache.org/) to fetch the features.
 
 Example `iceberg` datasource configuration:
 
 ```python
-from yummy import IcebergDataSource
+from yummy import IcebergSource
 
-my_stats_csv = IcebergDataSource(
+my_stats_csv = IcebergSource(
     path="local.mytable_dbz.debeziumcdc_postgres_public_mystats_fv1",
-    event_timestamp_column="datetime",
+    timestamp_field="datetime",
 )
 ```
 
-`IcebergDataSource` is supported only for the spark backend.
+`IcebergSource` is supported only for the spark backend.
 
 To use it you will need to include addtional spark packages (eg. `org.apache.iceberg:iceberg-spark-runtime-3.2_2.12:0.13.2`)
 

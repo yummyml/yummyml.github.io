@@ -14,11 +14,11 @@ The `csv` datasource is mainly intended for the ad hoc experiments cases.
 Example `csv` datasource configuration:
 
 ```python
-from yummy import CsvDataSource
+from yummy import CsvSource
 
-my_stats_csv = CsvDataSource(
+my_stats_csv = CsvSource(
     path="/home/jovyan/notebooks/dataset/all_data.csv",
-    event_timestamp_column="datetime",
+    timestamp_field="datetime",
 )
 ```
 

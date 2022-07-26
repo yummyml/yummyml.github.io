@@ -9,16 +9,16 @@ permalink: /sources/delta
 
 # Delta
 
-With `DeltaDataSource` you can consume [Delta Lake](https://delta.io/) to fetch the features.
+With `DeltaSource` you can consume [Delta Lake](https://delta.io/) to fetch the features.
 
 Example `delta` datasource configuration:
 
 ```python
-from yummy import DeltaDataSource
+from yummy import DeltaSource
 
-my_stats_csv = DeltaDataSource(
+my_stats_csv = DeltaSource(
     path="/home/jovyan/notebooks/dataset/delta/",
-    event_timestamp_column="datetime",
+    timestamp_field="datetime",
 )
 ```
 
@@ -29,7 +29,7 @@ You can also read from:
 * `local filesystem`
 * `s3` store (you can use `s3_endpoint_override` to use custom s3 like [minio](https://min.io/)
 
-`DeltaDataSource` we be handled differently for `yummy` backends.
+`DeltaSource` we be handled differently for `yummy` backends.
 For `polars`, `dask`, `ray` the rust [delta-rs](https://github.com/delta-io/delta-rs) implementation will be used.
 
 For `spark` the spark delta reader will be used. To use it you will need to include addtional 
