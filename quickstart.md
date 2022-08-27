@@ -80,7 +80,7 @@ online_store:
 offline_store:
     type: yummy.YummyOfflineStore
     backend: spark
-    spark_conf:
+    config:
         spark.master: "local[*]"
         spark.ui.enabled: "false"
         spark.eventLog.enabled: "false"
@@ -171,12 +171,14 @@ mystats_view_csv = FeatureView(
 from feast import FeatureStore
 import pandas as pd
 import time
+from datetime import datetime
+from yummy import select_all
 
 store = FeatureStore(repo_path=".")
 
 start_time = time.time()
 training_df = store.get_historical_features(
-    entity_df=entity_df, 
+    entity_df=select_all(datetime(2022, 9, 14, 23, 59, 42)), 
     features = [
         'my_statistics_parquet:p1',
         'my_statistics_parquet:p2',
@@ -192,4 +194,36 @@ print("--- %s seconds ---" % (time.time() - start_time))
 
 training_df
 ```
+
+To fetch historical features you need to specify: `entity_df` and `features`.
+
+### entity_df
+
+`entity_df` is the list of entities with `event_timestamps` you want to fetch.
+You can manually build the data frame with the list of entites:
+```
+import pandas as pd
+from datetime import datetime
+
+entity_df = pd.DataFrame.from_dict(
+    {
+        "entity_id": [1, 2, 3],
+        "event_timestamp": [
+            datetime.now() - timedelta(minutes=1),
+            datetime.now() - timedelta(minutes=2),
+            datetime.now() - timedelta(minutes=3),
+        ],
+    }
+)
+```
+
+Or in yummy you can use `select_all`:
+```
+from yummy import select_all
+from datetime import datetime
+
+entity_df = select_all(datetime(2022, 9, 14, 23, 59, 42))
+```
+
+with `select_all` all entities will be selected from the first feature view.
 
