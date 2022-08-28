@@ -3,13 +3,13 @@ layout: default
 title: Tutorials
 nav_order: 3
 has_children: false
-description: "Yummy tutorials."
-permalink: /tutorials
+description: "Yummy recipes."
+permalink: /recipes
 ---
 
 # Tutorials
 
-Here you will find tutorials how to use Yummy, Feast and more:
+Here you will find recipes how to use Yummy, Feast and more:
 
 ---
 
