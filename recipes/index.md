@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Tutorials
+title: Recipes
 nav_order: 3
 has_children: false
 description: "Yummy recipes."
 permalink: /recipes
 ---
 
-# Tutorials
+# Recipes
 
 Here you will find recipes how to use Yummy, Feast and more:
 
