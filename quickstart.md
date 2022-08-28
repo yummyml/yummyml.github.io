@@ -15,7 +15,7 @@ pip install yummy
 ```
 
 ```bash
-pip install git+https://github.com/qooba/yummy.git
+pip install git+https://github.com/yummyml/yummy.git
 ```
 
 ### Create a feature repository:
