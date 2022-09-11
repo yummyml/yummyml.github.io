@@ -13,6 +13,18 @@ Here you will find recipes how to use Yummy, Feast and more:
 
 ---
 
+## Graph Embeddings with Feature Store
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/o_6Ov-Isr6c" frameborder="0" allowfullscreen></iframe>
+</div>
+
+[Code](https://github.com/yummyml/yummy-embeddings/blob/main/notebooks/example.ipynb){: .btn .btn-blue }
+[Read](https://blog.qooba.net/2022/09/11/graph-embeddings-with-feature-store/){: .btn .btn-green }
+
+
+---
+
 ## Real-time ingested historical feature store with Iceberg, Feast and Yummy extension
 
 <div class="video-container">
