@@ -30,9 +30,10 @@ cd feature_repo
 
 To configure the offline store edit `feature_store.yaml`
 ```yaml
-project: feature_repo
-registry: data/registry.db
-provider: local
+project: repo
+registry: s3://data/registry.db
+provider: yummy.YummyProvider
+backend: polars
 online_store:
     ...
 offline_store:
@@ -44,49 +45,48 @@ offline_store:
 
 To configure the offline store edit `feature_store.yaml`
 ```yaml
-project: feature_repo
-registry: data/registry.db
-provider: local
+project: repo
+registry: s3://data/registry.db
+provider: yummy.YummyProvider
+backend: dask
 online_store:
     ...
 offline_store:
     type: yummy.YummyOfflineStore
-    backend: dask
 ```
 
 #### Ray
 
 To configure the offline store edit `feature_store.yaml`
 ```yaml
-project: feature_repo
-registry: data/registry.db
-provider: local
+project: repo
+registry: s3://data/registry.db
+provider: yummy.YummyProvider
+backend: ray
 online_store:
     ...
 offline_store:
     type: yummy.YummyOfflineStore
-    backend: ray
 ```
 
 #### Spark
 
 To configure the offline store edit `feature_store.yaml`
 ```yaml
-project: feature_repo
-registry: data/registry.db
-provider: local
+project: repo
+registry: s3://data/registry.db
+provider: yummy.YummyProvider
+backend: spark
+backend_config:
+    spark.master: "local[*]"
+    spark.ui.enabled: "false"
+    spark.eventLog.enabled: "false"
+    spark.sql.session.timeZone: "UTC"
 online_store:
     ...
 offline_store:
     type: yummy.YummyOfflineStore
-    backend: spark
-    config:
-        spark.master: "local[*]"
-        spark.ui.enabled: "false"
-        spark.eventLog.enabled: "false"
-        spark.sql.session.timeZone: "UTC"
 ```
-
 
 ### Features definition
 
