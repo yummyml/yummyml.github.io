@@ -13,6 +13,18 @@ Here you will find recipes how to use Yummy, Feast and more:
 
 ---
 
+## Speedup features serving with Rust - Yummy serve
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/lXCJLc3hWgY" frameborder="0" allowfullscreen></iframe>
+</div>
+
+[Code](https://github.com/yummyml/yummy){: .btn .btn-blue }
+[Read](https://blog.qooba.net/2022/10/25/speedup-features-serving-with-rust/){: .btn .btn-green }
+
+
+---
+
 ## Graph Embeddings with Feature Store
 
 <div class="video-container">
