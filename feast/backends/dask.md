@@ -4,7 +4,7 @@ title: Dask
 parent: Backends
 nav_order: 3
 description: "Yummy dask backend."
-permalink: /feast/backends/dask
+permalink: /feast/backends-dask
 ---
 
 # Dask
