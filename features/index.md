@@ -10,8 +10,14 @@ permalink: /features
 
 The yummy feature server is based on the rust implementation wrapped by [pyo3](https://github.com/PyO3/pyo3) thus you don't need 
 to install rust environment and you can simply run it using command line:
+
 ```bash
-yummy serve -h 0.0.0.0 -p 6566 -f feature_store.yaml
+pip3 install yummy[features]
+```
+
+and then:
+```bash
+yummy features serve -h 0.0.0.0 -p 6566 -f feature_store.yaml
 ```
 
 Rust feature server have been implemented using [Actix](https://actix.rs/) server.

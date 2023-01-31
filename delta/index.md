@@ -15,15 +15,13 @@ The api use [delta-rs](https://github.com/delta-io/delta-rs) implementation.
 ## Instalation
 
 ```
-pip3 install yummy-delta
+pip3 install yummy[delta]
 ```
 
 ## Quick start
 
-``` python
-import yummy_delta
-# yummy_delta.run({config_path}, {host}, {port}, {log_level})
-yummy_delta.run("config.yaml", "0.0.0.0", 8080, "error")
+``` bash
+yummy delta server -h 0.0.0.0 -p 8080 -f /test-yummy/yummy-delta-tests/config.yaml
 ```
 
 In the configuration file we can define multiple stores using supported backends.
