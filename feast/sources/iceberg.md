@@ -4,7 +4,7 @@ title: Iceberg
 parent: Sources
 nav_order: 1
 description: "Yummy iceberg source."
-permalink: /sources/iceberg
+permalink: /feast/sources/iceberg
 ---
 
 # Iceberg

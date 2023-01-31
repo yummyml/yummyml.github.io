@@ -4,7 +4,7 @@ title: Delta
 parent: Sources
 nav_order: 2
 description: "Yummy delta source."
-permalink: /sources/delta
+permalink: /feast/sources/delta
 ---
 
 # Delta

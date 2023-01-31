@@ -4,7 +4,7 @@ title: Quickstart
 parent: Feast
 nav_order: 1
 description: "Yummy documentation."
-permalink: /quickstart
+permalink: /feast/quickstart
 ---
 
 # Yummy Quickstart
