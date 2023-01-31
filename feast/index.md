@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Feast
+has_children: true
 nav_order: 3
 description: "Yummy feast documentation."
 permalink: /feast
