@@ -5,7 +5,7 @@ parent: Feast
 nav_order: 2
 has_children: true
 description: "Yummy documentation."
-permalink: /feast/backends
+permalink: /feast-backends
 ---
 
 # Backends

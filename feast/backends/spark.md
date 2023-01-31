@@ -4,7 +4,7 @@ title: Spark
 parent: Backends
 nav_order: 1
 description: "Yummy spark backend."
-permalink: /feast/backends-spark
+permalink: /feast-backends-spark
 ---
 
 # Spark
