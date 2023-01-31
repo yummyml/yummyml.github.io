@@ -4,7 +4,7 @@ title: Ray
 parent: Backends
 nav_order: 4
 description: "Yummy ray backend."
-permalink: /feast-backends-ray
+permalink: /feast/backends/ray
 ---
 
 # Ray
