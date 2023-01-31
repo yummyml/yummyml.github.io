@@ -23,15 +23,15 @@ The MLflow rust wrapper currently supports models:
 [x] catboost (only binary classification)
 
 The implementation currently supports MLflow models kept on local path.
+
+```bash
+pip3 install yummy[mlflow]
+```
+
 To run the model run:
 
-`yummy_mlflow.model_serve(MODEL_PATH, HOST, POST, LOG_LEVEL)`
-
-example:
-```python
-import yummy_mlflow
-
-yummy_mlflow.model_serve(model_path, '0.0.0.0', 8080, 'error')
+```bash
+yummy models serve -h 0.0.0.0 -p 8080 -m /tmp/binary_lightgbm/
 ```
 
 The `yummy-mlflow` will expose HTTP server. 
