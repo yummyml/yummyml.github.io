@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Backends
-nav_order: 4
+parent: Feast
+nav_order: 2
 has_children: true
 description: "Yummy documentation."
 permalink: /backends

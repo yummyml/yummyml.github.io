@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Quickstart
-nav_order: 2
+parent: Feast
+nav_order: 1
 description: "Yummy documentation."
 permalink: /quickstart
 ---

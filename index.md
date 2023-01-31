@@ -6,26 +6,19 @@ description: "Yummy documentation."
 permalink: /
 ---
 
-# [Yummy](https://github.com/yummyml/yummy) - delicious [Feast](https://github.com/feast-dev/feast) extension
+# [Yummy](https://github.com/yummyml/yummy) - delicious MLOps tools.
+
 <center><img src="{{ site.relative_url }}assets/images/yummy_transparent.png" alt="yummy" width="500" /></center>
 
-Yummy project adds possiblity to run [Feast](https://github.com/feast-dev/feast) on multiple backends:
-* [polars](https://github.com/pola-rs/polars)
-* [dask](https://github.com/dask/dask)
-* [ray](https://github.com/ray-project/ray)
-* [spark](https://github.com/apache/spark)
+Yummy project contains several tools and components which can help build and speedup the MLOps process.
+Most of the code is written in rust 🦀 but components expose easy to use python api. 
 
-This gives flexibility in setting up the feature store on existing environments and using its capabilities.
-Moreover using Yummy you can combine multiple and different datasources during historical fetch task.
+| Package         | Description                                                                           | Documentation                       | Youtube
+| --------------  | ------------------------------------------------------------------------------------- | ----------------------------------- | --------------
+| yummy[feast]    | Yummy [feast](https://docs.feast.dev/) feature store extensions                       | [📄README](yummy)                   | 🎞[YT](https://www.youtube.com/watch?v=YinQxF4Gx54)
+| yummy[features] | Yummy features server compatble with [Feast](https://docs.feast.dev/) feature store   | [📄README](yummy-rs/yummy-features) | 🎞[YT](https://www.youtube.com/watch?v=lXCJLc3hWgY)
+| yummy[mlflow]   | Yummy [mlflow](https://www.mlflow.org/) models server                                 | [📄README](yummy-rs/yummy-mlflow)   | 🎞[YT](https://www.youtube.com/watch?v=rjNZ1RwBlCA)
+| yummy[delta]    | Yummy [delta lake](https://delta.io/) api                                             | [📄README](yummy-rs/yummy-delta)    | 🎞Soon
 
-{% include sources_matrix.md %}
-
-## Why ?
-
-Here is short explanation why we need yummy:
-
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/YinQxF4Gx54" frameborder="0" allowfullscreen></iframe>
-</div>
 
 

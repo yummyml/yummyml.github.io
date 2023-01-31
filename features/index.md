@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Feature server"
-nav_order: 6
+title: Features
+nav_order: 4
 description: "Yummy feature server."
-permalink: /feature-server
+permalink: /features
 ---
 
 # Yummy Feature Server

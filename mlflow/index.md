@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Models serving"
-nav_order: 6
+title: MLflow
+nav_order: 5
 description: "Yummy MLflow models serving."
-permalink: /yummy-mlflow-models-serving
+permalink: /mlflow
 ---
 
 # Yummy mlflow models serving
