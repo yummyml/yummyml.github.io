@@ -314,3 +314,63 @@ Response:
                    'col2=B/part-00000-ded9a5b7-4754-47b7-9e2c-132263cea52e-c000.snappy.parquet',
                    'col2=B/part-00000-fb89f02c-8ea3-47d9-8794-182d8602687c-c000.snappy.parquet']}
 ```
+
+### Query
+
+Request:
+```
+curl -X GET "http://localhost:8080/api/1.0/delta/{store_name}/{table_name}?query={sql}&braces=true" \
+-H "Content-Type: application/json"
+```
+
+Response :
+```
+[
+    {"column_name": ["data"], ...}  <= record batch
+    ...
+]
+```
+
+Example:
+```
+# SQL
+SELECT CAST(col2 as STRING), SUM(col1), COUNT(col1), MAX(col1), AVG(col1) FROM test_delta_4 GROUP BY col2
+
+# Example response
+
+[{'AVG(test_delta_4.col1)': [6.142857142857143, 5.75],
+  'COUNT(test_delta_4.col1)': [231, 132],
+  'MAX(test_delta_4.col1)': [11, 9],
+  'SUM(test_delta_4.col1)': [1419, 759],
+  'test_delta_4.col2': ['A', 'B']}]
+  
+```
+
+Response is returned as a stream thus you can process it in batches.
+Python example:
+```python
+import pyarrow as pa
+import pyarrow.json
+import aiohttp
+import json
+
+query="SELECT CAST(col2 as STRING), col1 FROM test_delta_4 order by col1 "
+url=f"http://localhost:8080/api/1.0/delta/az/test_delta_4?query={query}&braces=false"
+
+async def stream(url):
+    batches = []
+    async with aiohttp.request('get', url) as r:
+        async for data in r.content.iter_chunks():
+            d=json.loads(data[0])
+            batch =pa.RecordBatch.from_pydict(d) # read batch to pyarrow
+            batches.append(batch)
+    return batches
+
+batches = await stream(url)
+
+pa.Table.from_batches(batches).to_pandas() # convert batches array to pandas
+```
+
+
+
+
