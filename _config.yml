@@ -7,11 +7,11 @@ highlighter:      pygments
 #relative_permalinks: true
 
 # Setup
-name:             yummyml.com
+name:             yummy.onceuponai.dev
 title:            Yummy
 tagline:          'Yummy'
 description:      'Yummy extension'
-url:              https://www.yummyml.com
+url:              https://yummy.onceuponai.dev
 baseurl:          /
 relative_url:     /
 remote_theme:     just-the-docs/just-the-docs
